@@ -7,3 +7,13 @@ C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.GenerateR
 C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.CoreCompileInputs.cache
 C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.exe
 C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.pdb
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\bin\Debug\TEPEUVE.exe
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\bin\Debug\TEPEUVE.pdb
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.Formularios.frmInstall.resources
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.frmLogin.resources
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.Properties.Resources.resources
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.GenerateResource.cache
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.exe
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.pdb

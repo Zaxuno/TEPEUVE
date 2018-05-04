@@ -6,16 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using TEPEUVE.Formularios;
 
-namespace TEPEUVE
+namespace TEPEUVE.Formularios
 {
-    public partial class frmLogin : Form
+    public partial class frmInstall : Form
     {
-        public frmLogin()
+        public frmInstall()
         {
-            frmInstall instalacion = new frmInstall();
-            instalacion.ShowDialog();
             InitializeComponent();
         }
     }
