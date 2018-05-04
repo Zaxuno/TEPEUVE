@@ -1,0 +1,9 @@
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\bin\Debug\TEPEUVE.exe
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\bin\Debug\TEPEUVE.pdb
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csprojResolveAssemblyReference.cache
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.frmLogin.resources
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.Properties.Resources.resources
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.GenerateResource.cache
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.exe
+C:\Users\Windows\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.pdb
