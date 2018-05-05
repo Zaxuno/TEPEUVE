@@ -69,14 +69,5 @@ namespace TEPEUVE.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Login.
-        /// </summary>
-        internal static string frmLoginTitle {
-            get {
-                return ResourceManager.GetString("frmLoginTitle", resourceCulture);
-            }
-        }
     }
 }
