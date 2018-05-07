@@ -21,3 +21,4 @@ C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.CoreCompil
 C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.CopyComplete
 C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.exe
 C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.pdb
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.Formularios.frmInstall2.resources

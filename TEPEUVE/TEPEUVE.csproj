@@ -83,6 +83,12 @@
     <Compile Include="Formularios\frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmInstall2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmInstall2.Designer.cs">
+      <DependentUpon>frmInstall2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmInstall1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmInstall2.resx">
+      <DependentUpon>frmInstall2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmInstall1.resx">
       <DependentUpon>frmInstall1.cs</DependentUpon>
