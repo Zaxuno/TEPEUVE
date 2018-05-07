@@ -15,11 +15,11 @@ namespace TEPEUVE
     {
         public frmLogin()
         {
-            if (!BaseDeDatos.ComprobarExistencia())
-            { 
+            /*if (!BaseDeDatos.ComprobarExistencia())
+            { */
                 frmInstall instalacion = new frmInstall();
                 instalacion.ShowDialog();
-            }
+            //}
             InitializeComponent();
         }
     }

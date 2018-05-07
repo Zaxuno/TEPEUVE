@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabPaso2 = new System.Windows.Forms.TabPage();
             this.txbApellidos = new System.Windows.Forms.TextBox();
             this.txbNombre = new System.Windows.Forms.TextBox();
@@ -35,25 +36,29 @@
             this.labNombre = new System.Windows.Forms.Label();
             this.tabPaso1 = new System.Windows.Forms.TabPage();
             this.grbIntervalo = new System.Windows.Forms.GroupBox();
+            this.nudIntervalo = new System.Windows.Forms.NumericUpDown();
             this.rdbDias = new System.Windows.Forms.RadioButton();
             this.rdbHoras = new System.Windows.Forms.RadioButton();
             this.rdbMinutos = new System.Windows.Forms.RadioButton();
             this.grbBackups = new System.Windows.Forms.GroupBox();
+            this.btnRutaBackup = new System.Windows.Forms.Button();
             this.txbRutaBackup = new System.Windows.Forms.TextBox();
             this.grbDatos = new System.Windows.Forms.GroupBox();
             this.txbRutaDatos = new System.Windows.Forms.TextBox();
+            this.btnRutaDatos = new System.Windows.Forms.Button();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.btnSiguiente = new System.Windows.Forms.Button();
-            this.btnRutaBackup = new System.Windows.Forms.Button();
-            this.btnRutaDatos = new System.Windows.Forms.Button();
-            this.nudIntervalo = new System.Windows.Forms.NumericUpDown();
+            this.errP = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errPT = new System.Windows.Forms.ErrorProvider(this.components);
             this.tabPaso2.SuspendLayout();
             this.tabPaso1.SuspendLayout();
             this.grbIntervalo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudIntervalo)).BeginInit();
             this.grbBackups.SuspendLayout();
             this.grbDatos.SuspendLayout();
             this.tabControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudIntervalo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPT)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPaso2
@@ -131,6 +136,28 @@
             this.grbIntervalo.TabStop = false;
             this.grbIntervalo.Text = "Intervalo del Backup";
             // 
+            // nudIntervalo
+            // 
+            this.nudIntervalo.Location = new System.Drawing.Point(105, 25);
+            this.nudIntervalo.Maximum = new decimal(new int[] {
+            365,
+            0,
+            0,
+            0});
+            this.nudIntervalo.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudIntervalo.Name = "nudIntervalo";
+            this.nudIntervalo.Size = new System.Drawing.Size(120, 26);
+            this.nudIntervalo.TabIndex = 4;
+            this.nudIntervalo.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // rdbDias
             // 
             this.rdbDias.AutoSize = true;
@@ -176,6 +203,18 @@
             this.grbBackups.TabStop = false;
             this.grbBackups.Text = "Carpeta para Backups";
             // 
+            // btnRutaBackup
+            // 
+            this.btnRutaBackup.BackgroundImage = global::TEPEUVE.Properties.Resources.folder;
+            this.btnRutaBackup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRutaBackup.Location = new System.Drawing.Point(538, 25);
+            this.btnRutaBackup.Name = "btnRutaBackup";
+            this.btnRutaBackup.Size = new System.Drawing.Size(26, 26);
+            this.btnRutaBackup.TabIndex = 5;
+            this.btnRutaBackup.UseCompatibleTextRendering = true;
+            this.btnRutaBackup.UseVisualStyleBackColor = true;
+            this.btnRutaBackup.Click += new System.EventHandler(this.btnRutaBackup_Click);
+            // 
             // txbRutaBackup
             // 
             this.txbRutaBackup.Location = new System.Drawing.Point(8, 25);
@@ -183,6 +222,7 @@
             this.txbRutaBackup.ReadOnly = true;
             this.txbRutaBackup.Size = new System.Drawing.Size(524, 26);
             this.txbRutaBackup.TabIndex = 4;
+            this.txbRutaBackup.Tag = "0";
             // 
             // grbDatos
             // 
@@ -204,6 +244,19 @@
             this.txbRutaDatos.ReadOnly = true;
             this.txbRutaDatos.Size = new System.Drawing.Size(524, 26);
             this.txbRutaDatos.TabIndex = 1;
+            this.txbRutaDatos.Tag = "0";
+            // 
+            // btnRutaDatos
+            // 
+            this.btnRutaDatos.BackgroundImage = global::TEPEUVE.Properties.Resources.folder;
+            this.btnRutaDatos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRutaDatos.Location = new System.Drawing.Point(538, 24);
+            this.btnRutaDatos.Name = "btnRutaDatos";
+            this.btnRutaDatos.Size = new System.Drawing.Size(26, 26);
+            this.btnRutaDatos.TabIndex = 2;
+            this.btnRutaDatos.UseCompatibleTextRendering = true;
+            this.btnRutaDatos.UseVisualStyleBackColor = true;
+            this.btnRutaDatos.Click += new System.EventHandler(this.btnRutaDatos_Click);
             // 
             // tabControl
             // 
@@ -229,51 +282,13 @@
             this.btnSiguiente.UseVisualStyleBackColor = true;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
-            // btnRutaBackup
+            // errP
             // 
-            this.btnRutaBackup.BackgroundImage = global::TEPEUVE.Properties.Resources.folder;
-            this.btnRutaBackup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnRutaBackup.Location = new System.Drawing.Point(538, 25);
-            this.btnRutaBackup.Name = "btnRutaBackup";
-            this.btnRutaBackup.Size = new System.Drawing.Size(26, 26);
-            this.btnRutaBackup.TabIndex = 5;
-            this.btnRutaBackup.UseCompatibleTextRendering = true;
-            this.btnRutaBackup.UseVisualStyleBackColor = true;
-            this.btnRutaBackup.Click += new System.EventHandler(this.btnRutaBackup_Click);
+            this.errP.ContainerControl = this.nudIntervalo;
             // 
-            // btnRutaDatos
+            // errPT
             // 
-            this.btnRutaDatos.BackgroundImage = global::TEPEUVE.Properties.Resources.folder;
-            this.btnRutaDatos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnRutaDatos.Location = new System.Drawing.Point(538, 24);
-            this.btnRutaDatos.Name = "btnRutaDatos";
-            this.btnRutaDatos.Size = new System.Drawing.Size(26, 26);
-            this.btnRutaDatos.TabIndex = 2;
-            this.btnRutaDatos.UseCompatibleTextRendering = true;
-            this.btnRutaDatos.UseVisualStyleBackColor = true;
-            this.btnRutaDatos.Click += new System.EventHandler(this.btnRutaDatos_Click);
-            // 
-            // nudIntervalo
-            // 
-            this.nudIntervalo.Location = new System.Drawing.Point(105, 25);
-            this.nudIntervalo.Maximum = new decimal(new int[] {
-            365,
-            0,
-            0,
-            0});
-            this.nudIntervalo.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nudIntervalo.Name = "nudIntervalo";
-            this.nudIntervalo.Size = new System.Drawing.Size(120, 26);
-            this.nudIntervalo.TabIndex = 4;
-            this.nudIntervalo.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.errPT.ContainerControl = this;
             // 
             // frmInstall
             // 
@@ -296,12 +311,14 @@
             this.tabPaso1.PerformLayout();
             this.grbIntervalo.ResumeLayout(false);
             this.grbIntervalo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudIntervalo)).EndInit();
             this.grbBackups.ResumeLayout(false);
             this.grbBackups.PerformLayout();
             this.grbDatos.ResumeLayout(false);
             this.grbDatos.PerformLayout();
             this.tabControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.nudIntervalo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPT)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -327,5 +344,7 @@
         private System.Windows.Forms.Label labApellidos;
         private System.Windows.Forms.Label labNombre;
         private System.Windows.Forms.NumericUpDown nudIntervalo;
+        private System.Windows.Forms.ErrorProvider errP;
+        private System.Windows.Forms.ErrorProvider errPT;
     }
 }

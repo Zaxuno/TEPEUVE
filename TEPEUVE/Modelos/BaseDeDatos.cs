@@ -22,6 +22,13 @@ namespace TEPEUVE.Modelos
             conexion = new SQLiteConnection(@"Data Source=" + rutaDB);
         }
 
+        public void InstalarNueva()
+        {
+            Abrir();
+            Crear("empleados", "id VARCHAR(11) NOT NULL PRIMARY KEY,rutaBackup VARCHAR(255) NOT NULL,intervalo INTEGER DEFAULT 1,tipoIntervalo CHAR DEFAULT 'D'");
+            Cerrar();
+        }
+
         internal static bool ComprobarExistencia()
         {
             if (File.Exists(Settings.Default.rutaDB)) return true;
