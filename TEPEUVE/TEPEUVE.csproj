@@ -82,11 +82,11 @@
     <Compile Include="Formularios\frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\frmInstall.cs">
+    <Compile Include="Formularios\frmInstall1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\frmInstall.Designer.cs">
-      <DependentUpon>frmInstall.cs</DependentUpon>
+    <Compile Include="Formularios\frmInstall1.Designer.cs">
+      <DependentUpon>frmInstall1.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmLogin.cs">
       <SubType>Form</SubType>
@@ -98,8 +98,11 @@
     <Compile Include="Modelos\Dialogos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\frmInstall.resx">
-      <DependentUpon>frmInstall.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmInstall1.resx">
+      <DependentUpon>frmInstall1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

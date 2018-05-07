@@ -19,3 +19,4 @@ C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csproj.CopyComple
 C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.exe
 C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.pdb
 C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\source\repos\TEPEUVE\TEPEUVE\obj\Debug\TEPEUVE.Formularios.frmHome.resources

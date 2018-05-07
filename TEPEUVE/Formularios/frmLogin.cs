@@ -17,8 +17,8 @@ namespace TEPEUVE
         {
             /*if (!BaseDeDatos.ComprobarExistencia())
             { */
-                frmInstall instalacion = new frmInstall();
-                instalacion.ShowDialog();
+            frmInstall1 instalacion = new frmInstall1();
+            instalacion.ShowDialog();
             //}
             InitializeComponent();
         }

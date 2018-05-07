@@ -44,54 +44,78 @@
             // labUsuario
             // 
             this.labUsuario.AutoSize = true;
-            this.labUsuario.Location = new System.Drawing.Point(113, 65);
+            this.labUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(16)))), ((int)(((byte)(52)))));
+            this.labUsuario.Location = new System.Drawing.Point(142, 93);
+            this.labUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labUsuario.Name = "labUsuario";
-            this.labUsuario.Size = new System.Drawing.Size(64, 20);
+            this.labUsuario.Size = new System.Drawing.Size(101, 31);
             this.labUsuario.TabIndex = 0;
-            this.labUsuario.Text = "Usuario";
+            this.labUsuario.Text = "USUARIO";
             // 
             // labPassword
             // 
             this.labPassword.AutoSize = true;
-            this.labPassword.Location = new System.Drawing.Point(97, 119);
+            this.labPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(16)))), ((int)(((byte)(52)))));
+            this.labPassword.Location = new System.Drawing.Point(120, 189);
+            this.labPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labPassword.Name = "labPassword";
-            this.labPassword.Size = new System.Drawing.Size(92, 20);
+            this.labPassword.Size = new System.Drawing.Size(145, 31);
             this.labPassword.TabIndex = 1;
-            this.labPassword.Text = "Contraseña";
+            this.labPassword.Text = "CONTRASEÑA";
             // 
             // btnAcceder
             // 
+            this.btnAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(16)))), ((int)(((byte)(52)))));
+            this.btnAcceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAcceder.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAcceder.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnAcceder.Location = new System.Drawing.Point(0, 185);
+            this.btnAcceder.FlatAppearance.BorderSize = 0;
+            this.btnAcceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(30)))), ((int)(((byte)(95)))));
+            this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(16)))), ((int)(((byte)(52)))));
+            this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcceder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(233)))), ((int)(((byte)(212)))));
+            this.btnAcceder.Location = new System.Drawing.Point(0, 285);
+            this.btnAcceder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAcceder.Name = "btnAcceder";
-            this.btnAcceder.Size = new System.Drawing.Size(288, 48);
+            this.btnAcceder.Size = new System.Drawing.Size(384, 75);
             this.btnAcceder.TabIndex = 2;
-            this.btnAcceder.Text = "Acceder";
-            this.btnAcceder.UseVisualStyleBackColor = true;
+            this.btnAcceder.Text = "ACCEDER";
+            this.btnAcceder.UseVisualStyleBackColor = false;
             // 
             // cmbUsuario
             // 
+            this.cmbUsuario.BackColor = System.Drawing.Color.White;
+            this.cmbUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cmbUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(16)))), ((int)(((byte)(52)))));
             this.cmbUsuario.FormattingEnabled = true;
-            this.cmbUsuario.Location = new System.Drawing.Point(13, 88);
+            this.cmbUsuario.Location = new System.Drawing.Point(17, 137);
+            this.cmbUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbUsuario.Name = "cmbUsuario";
-            this.cmbUsuario.Size = new System.Drawing.Size(264, 28);
+            this.cmbUsuario.Size = new System.Drawing.Size(351, 39);
             this.cmbUsuario.TabIndex = 3;
             // 
             // txbPassword
             // 
-            this.txbPassword.Location = new System.Drawing.Point(13, 142);
+            this.txbPassword.BackColor = System.Drawing.Color.White;
+            this.txbPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txbPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(16)))), ((int)(((byte)(52)))));
+            this.txbPassword.Location = new System.Drawing.Point(17, 233);
+            this.txbPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbPassword.Name = "txbPassword";
-            this.txbPassword.PasswordChar = '*';
-            this.txbPassword.Size = new System.Drawing.Size(264, 26);
+            this.txbPassword.PasswordChar = '⊙';
+            this.txbPassword.Size = new System.Drawing.Size(351, 39);
             this.txbPassword.TabIndex = 4;
             // 
             // labTitulo
             // 
             this.labTitulo.AutoSize = true;
-            this.labTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labTitulo.Location = new System.Drawing.Point(67, 9);
+            this.labTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.labTitulo.Font = new System.Drawing.Font("CuprumFFU", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(21)))), ((int)(((byte)(52)))));
+            this.labTitulo.Location = new System.Drawing.Point(74, 9);
+            this.labTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labTitulo.Name = "labTitulo";
-            this.labTitulo.Size = new System.Drawing.Size(148, 31);
+            this.labTitulo.Size = new System.Drawing.Size(237, 71);
             this.labTitulo.TabIndex = 5;
             this.labTitulo.Text = "TEPEUVE";
             // 
@@ -105,18 +129,19 @@
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 233);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(153)))), ((int)(((byte)(2)))));
+            this.ClientSize = new System.Drawing.Size(384, 360);
             this.Controls.Add(this.labTitulo);
             this.Controls.Add(this.txbPassword);
             this.Controls.Add(this.cmbUsuario);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.labPassword);
             this.Controls.Add(this.labUsuario);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("CuprumFFU", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
             this.MaximizeBox = false;
             this.Name = "frmLogin";
             this.Text = "Iniciar sesión";
@@ -133,10 +158,10 @@
         private System.Windows.Forms.Label labPassword;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.ComboBox cmbUsuario;
-        private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.Label labTitulo;
         private System.Windows.Forms.ErrorProvider erpUsuario;
         private System.Windows.Forms.ErrorProvider erpPassword;
+        private System.Windows.Forms.TextBox txbPassword;
     }
 }
 
