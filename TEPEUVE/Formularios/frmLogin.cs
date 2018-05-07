@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using TEPEUVE.Formularios;
+using TEPEUVE.Modelos;
 
 namespace TEPEUVE
 {
@@ -14,8 +15,11 @@ namespace TEPEUVE
     {
         public frmLogin()
         {
-            frmInstall instalacion = new frmInstall();
-            instalacion.ShowDialog();
+            if (!BaseDeDatos.ComprobarExistencia())
+            { 
+                frmInstall instalacion = new frmInstall();
+                instalacion.ShowDialog();
+            }
             InitializeComponent();
         }
     }

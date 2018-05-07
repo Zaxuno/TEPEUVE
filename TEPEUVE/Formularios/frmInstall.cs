@@ -55,12 +55,13 @@ namespace TEPEUVE.Formularios
 
             tabPaso1.Parent = null;
             tabPaso2.Parent = tabControl;
-            /* db = new BaseDeDatos(txbRutaDatos.Text, txbRutaBackup.Text);
+            db = new BaseDeDatos(txbRutaDatos.Text, txbRutaBackup.Text);
              db.Abrir();
 
-             db.Crear("config", "rutaDB VARCHAR(255) NOT NULL PRIMARY KEY,rutaBackup VARCHAR(255) NOT NULL,intervalo INTEGER DEFAULT 1,tipoIntervalo CHAR DEFAULT 'D'");
+             db.Crear("empleados", "id VARCHAR(11) NOT NULL PRIMARY KEY,rutaBackup VARCHAR(255) NOT NULL,intervalo INTEGER DEFAULT 1,tipoIntervalo CHAR DEFAULT 'D'");
 
-             db.Cerrar();*/
+             db.Cerrar();
+
         }
 
         private void frmInstall_Load(object sender, EventArgs e)

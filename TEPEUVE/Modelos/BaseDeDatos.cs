@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
+using System.IO;
 using System.Linq;
 using System.Text;
+using TEPEUVE.Properties;
 
 namespace TEPEUVE.Modelos
 {
@@ -18,6 +20,12 @@ namespace TEPEUVE.Modelos
             this.rutaDB = rutaDB;
             this.rutaBackup = rutaBackup;
             conexion = new SQLiteConnection(@"Data Source=" + rutaDB);
+        }
+
+        internal static bool ComprobarExistencia()
+        {
+            if (File.Exists(Settings.Default.rutaDB)) return true;
+            return false;
         }
 
         public BaseDeDatos(String rutaDB)
